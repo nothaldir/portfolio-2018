@@ -1,0 +1,13 @@
+.Header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  height: 9rem;
+  justify-content: space-between;
+  padding: 0 14rem;
+  font-family: $megrim;
+  box-shadow: 0 .3rem 1rem 0 rgba($black, .16);
+  background-color: $white;
+}

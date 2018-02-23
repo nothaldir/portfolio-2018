@@ -4,4 +4,22 @@ append config
   - var bodyClass = 'home'
 
 block content
-  .Home This is my index
+  .Home
+    .Home-content
+      h1.Home-title.type-it  Hi, I'm Alex.<br>I'm a Web Developer<br>Find out more below :)
+      ul.Home-social
+        li.Home-item: a(href="https://www.linkedin.com/in/alexberneau/" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#linkedin")
+        li.Home-item: a(href="https://github.com/nothaldir" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#github")
+        li.Home-item: a(href="https://twitter.com/nothaldir" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#twitter")
+        li.Home-item: a(href="https://www.instagram.com/nothaldir/?hl=fr" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#instagram")
+        li.Home-item: a(href="https://www.youtube.com/user/N0Thaldir" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#youtube")
+        li.Home-item: a(href="https://alex-berneau.tumblr.com/" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#tumblr")
+
+  .About
+    .About-title About me
+    img.About-img
+    p.About-text Lorem
+
+  .Work
+  .Contact
+  .Footer

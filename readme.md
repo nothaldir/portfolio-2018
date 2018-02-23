@@ -1,3 +1,5 @@
+# Alex Berneau's portfolio - 2018
+
 # WASA Boilerplate
 
 <table>
@@ -78,7 +80,7 @@ We are not using nodejs requires as it is not compatible with modern browsers. A
 #### ES Linter
 We are using the <a href="https://github.com/airbnb/javascript">Airbnb JavaScript Style Guide</a>. You can find the configuration file in `./.eslintrc`. The linter is not passing through our code. Instead, we recommend that you use a package within your text editor:
 - Sublime Text: <a href="https://packagecontrol.io/packages/SublimeLinter">SublimeLinter</a>, <a href="https://packagecontrol.io/packages/SublimeLinter-contrib-eslint">SublimeLinter-contrib-eslint</a>, and <a href="https://www.npmjs.com/package/eslint">eslint<a/> (globally installed, `npm install -g eslint`).
-- Atom: <a href="https://atom.io/packages/linter">linter</a> and <a href="https://atom.io/packages/linter-eslint">linter-eslint</a>. 
+- Atom: <a href="https://atom.io/packages/linter">linter</a> and <a href="https://atom.io/packages/linter-eslint">linter-eslint</a>.
 
 ### Styles
 #### Configuration

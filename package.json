@@ -57,5 +57,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "typeit": "^5.5.0"
   }
 }

@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i');
-$raleway:            'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Megrim|Montserrat:600,700|Open+Sans:400,600,700');
+
+$megrim: 'Megrim', cursive;
+$open-sans: 'Open Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 
 // Base
 $font-size-root:     62.5%;       // html tag to make 1em equal 10px
 $font-size-base:     1.6rem;      // body tag
 $font-size-base-m:   1.2rem;      // body tag mobile
-$font-family-base:   $raleway;    // add your custom font-face here
+$font-family-base:   $open-sans;    // add your custom font-face here
 $border-radius-base: .3rem;
 $line-height-base:   1.4;
 
 // Colors
 $white: #fff;
 $black: #000;
+$text-color: #111;
 
 // Media queries
 $mq-s:               414px;

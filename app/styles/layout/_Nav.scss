@@ -1,0 +1,12 @@
+.Nav {
+  &-list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &-item {
+    width: 12.2rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
