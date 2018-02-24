@@ -13,6 +13,15 @@
       font-weight: 600;
     }
 
+    a {
+      color: $text-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
     strong {
       font-weight: 700;
     }
