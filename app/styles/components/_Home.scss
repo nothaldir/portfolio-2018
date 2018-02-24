@@ -29,6 +29,14 @@
     align-items: center;
   }
 
+  &-logo {
+    font-family: $megrim;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-weight: 400;
+    margin-bottom: 7.5rem;
+  }
+
   &-title {
     font-family: $montserrat;
     font-size: 7.5rem;
@@ -63,8 +71,6 @@
 
     i {
       font-size: 5rem;
-      animation-duration: 1s;
-      animation-delay: 9s;
     }
   }
 }
