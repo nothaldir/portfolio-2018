@@ -18,7 +18,8 @@
     "styles:build": "npm-run-all build-task:node-sass build-task:postcss",
     "styles:watch": "chokidar 'app/styles/**/*.scss' -c 'npm run styles:build'",
     "icons:watch": "chokidar 'app/assets/icons' -c 'npm run build-task:icons'",
-    "browser-sync": "browser-sync start --config bs-config.js"
+    "browser-sync": "browser-sync start --config bs-config.js",
+    "medias":   "cp -r app/assets/medias build/assets/"
   },
   "repository": {
     "type": "git",

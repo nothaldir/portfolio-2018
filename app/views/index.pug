@@ -14,11 +14,20 @@ block content
         li.Home-item: a(href="https://www.instagram.com/nothaldir/?hl=fr" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#instagram")
         li.Home-item: a(href="https://www.youtube.com/user/N0Thaldir" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#youtube")
         li.Home-item: a(href="https://alex-berneau.tumblr.com/" target="_blank"): svg.icon(viewBox="0 0 1 1"): use(xlink:href="assets/icons/sprite.svg#tumblr")
+    .Home-next
+      a(href="#about"): i.animated.infinite.bounce.material-icons keyboard_arrow_down
 
-  .About
-    .About-title About me
-    img.About-img
-    p.About-text Lorem
+
+  section.Section
+    h2.Title About me
+    .About#about
+      img(src="assets/medias/ABOUT.jpg").About-img
+      .About-text(data-aos="fade-left")
+        p Hi, my name is <b>Alex Berneau</b>, welcome here!
+        p I'm a <b>fourth year student</b> at HETIC. It's a web school based in Paris, France. There, I'm studying a great many things related to the Internet: <b>business management, digital creation, and internet technologies</b>. As a result, I am quite <b>polyvalent</b>, although my domain of expertise is <b>web development</b>.
+        p Most of my skills are front-end development ones, but I like to try other things. I enjoy coding pretty much everything, it really depends on the technologies that I use.
+        p In 2016, I spent three months at Ohwee for an internship, and in 2017, three other months at Wait And See. These two companies are web agencies based in Paris. There, I practiced web development, but also project management, customer relationship management, and even web design.
+        p <strong>Right now, I'm looking for a six-month internship from July to December 2018.</strong>
 
   .Work
   .Contact

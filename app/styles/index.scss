@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 // 1. Configuration and helpers
+@import "abstracts/animations";
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
@@ -9,7 +10,10 @@
 @import "base/grid";
 
 // 3. Components
+@import "components/About";
 @import "components/Home";
+@import "components/Section";
+@import "components/Title";
 @import "components/Logo";
 
 // 4. Layout-related sections

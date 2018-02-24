@@ -1,0 +1,25 @@
+.About {
+  display: flex;
+  justify-content: center;
+
+  &-text {
+    width: 53.6rem;
+
+    p:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    b {
+      font-weight: 600;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  &-img {
+    height: 44.1rem;
+    margin-right: 15.4rem;
+  }
+}
