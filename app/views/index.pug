@@ -4,7 +4,7 @@ append config
   - var bodyClass = 'home'
 
 block content
-  .Home
+  .Home#home
     .Home-content
       h1.Home-title.type-it  Hi, I'm Alex!<br>I'm a Web Developer.<br>Find out more below :)
       ul.Home-social
@@ -19,8 +19,8 @@ block content
 
 
   section.Section
-    h2.Title About me
-    .About#about
+    h2.Title#about About me
+    .About
       img(src="assets/medias/ABOUT.jpg").About-img
       .About-text(data-aos="fade-left")
         p Hi, my name is <b>Alex Berneau</b>, welcome here!
@@ -29,5 +29,12 @@ block content
         p In 2016, I spent three months at <a href="https://www.ohwee.fr/" target="_blank">Ohwee</a> for an internship, and in 2017, three other months at <a href="https://www.waitandsee.fr/">Wait And See</a>. They are both web agencies based in Paris. There, I practiced web development, but also project management, customer relationship management, and even web design.
         p <strong>Right now, I'm looking for a six-month internship from July to December 2018.</strong>
 
-  .Work
-  .Contact
+  section.Section
+    h2.Title#work My work
+    .Work
+
+  section.Section
+    h2.Title#contact Contact
+    .Contact
+      i.material-icons.Contact-icon email
+      p.Contact-message Want to get in touch with me ? Feel free to contact me through any social network or by email at <br><a href="mailto:alex.berneau@outlook.com">alex.berneau@outlook.com</a>.

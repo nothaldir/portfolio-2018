@@ -1,3 +1,11 @@
 .Section {
-  padding: 20rem 0;
+  padding: 9rem 0;
+
+  &:nth-child(even) {
+    background: $secondary-section-color;
+  }
+
+  &:nth-child(odd) {
+    background: $white;
+  }
 }

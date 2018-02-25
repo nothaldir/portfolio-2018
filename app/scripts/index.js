@@ -30,7 +30,7 @@ function scrollAnimations() {
   const scrollLinks = document.querySelectorAll('.animate-scroll')
   Array.from(scrollLinks).forEach(link => link.addEventListener('click', () => {
     const scrollTarget = document.querySelector(`${link.getAttribute('data-scroll')}`)
-    animateScroll(scrollTarget, 1000, 'easeInOutQuint', 300, top)
+    animateScroll(scrollTarget, 1000, 'easeInOutQuint', 130, top)
   }))
 }
 
