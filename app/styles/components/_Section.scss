@@ -1,8 +1,11 @@
 .Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 9rem 0;
 
   &:nth-child(even) {
-    background: $secondary-section-color;
+    background: $section-color;
   }
 
   &:nth-child(odd) {

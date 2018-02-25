@@ -4,10 +4,15 @@
   width: 100%;
   align-items: center;
   display: flex;
+  justify-content: center;
   height: 9rem;
-  justify-content: space-between;
-  padding: 0 14rem;
-  font-family: $megrim;
   box-shadow: 0 .3rem 1rem 0 rgba($black, .16);
   background-color: $white;
+
+  &-content {
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

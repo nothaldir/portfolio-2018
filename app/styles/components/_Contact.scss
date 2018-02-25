@@ -33,7 +33,7 @@
         left: 0;
         bottom: 0;
         background-color: $secondary-text-color;
-        transition: all .35s cubic-bezier(0.86, 0, 0.07, 1);
+        transition: all .35s $easeInOutQuint;
       }
 
       &:hover::after {

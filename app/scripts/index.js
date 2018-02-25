@@ -51,7 +51,6 @@ function headerFade() {
   }
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
   scrollAnimations()
   appearAnimations()
