@@ -19,7 +19,7 @@
     "styles:watch": "chokidar 'app/styles/**/*.scss' -c 'npm run styles:build'",
     "icons:watch": "chokidar 'app/assets/icons' -c 'npm run build-task:icons'",
     "browser-sync": "browser-sync start --config bs-config.js",
-    "medias": "cp -r app/assets/medias build/assets/",
+    "copy": "cp -r app/assets/medias build/assets/ && cp -frp app/public -T build/",
     "build-task:vendors-scripts": "cp -r app/scripts/vendors build/assets/scripts/"
   },
   "repository": {

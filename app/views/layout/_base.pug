@@ -4,14 +4,34 @@ block config
 doctype html
 html.no-js(lang="en")
   head
+    //- Main
     meta(charset="utf-8")
     title 👨‍💻 Alex Berneau - Portfolio
+    meta(name="description" content="I'm Alex Berneau, a web developer & student at HETIC. I'm also looking for a six-month internship from July to December 2018. Come, I have (digital) cookies 😉")
     meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
     meta(name="viewport", content="initial-scale=1, width=device-width, minimum-scale=1, maximum-scale=1")
+    //- Stylesheets
     link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
     link(href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet")
     link(href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet")
     link(rel="stylesheet", href="assets/index.css")
+    //- Favicons
+    link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
+    link(rel="manifest" href="/site.webmanifest")
+    link(rel="mask-icon" href="/safari-pinned-tab.svg" color="#16bffd")
+    meta(name="apple-mobile-web-app-title" content="Alex Berneau")
+    meta(name="application-name" content="Alex Berneau")
+    meta(name="msapplication-TileColor" content="#2d89ef")
+    meta(name="theme-color" content="#ffffff")
+    //- Open Graph
+    meta(property="og:type" content="profile")
+    meta(property="og:title" content="👨‍💻 Alex Berneau - Portfolio")
+    meta(property="og:url" content="https://alex-berneau.com")
+    meta(property="og:image" content="https://alex-berneau.com/open_graph.png")
+    meta(property="profile:first_name" content="Alex")
+    meta(property="profile:last_name" content="Berneau")
   body(class=bodyClass)
       .Container
         include ../includes/_header
