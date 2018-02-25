@@ -7,11 +7,7 @@ function animateScroll(t,n,i,e,a,r){e=e?e:0;var o=document.documentElement,s=o.c
 /* eslint-enable */
 
 function homeAnimations() {
-  console.log('home animations');
   document.querySelector('.Home-next a i').classList.add('bounce')
-  const homeLogo = document.querySelector('.Home-logo')
-  homeLogo.classList.remove('waiting')
-  homeLogo.classList.add('fadeIn')
 }
 
 function homeTyper() {
@@ -34,7 +30,7 @@ function scrollAnimations() {
   const scrollLinks = document.querySelectorAll('.animate-scroll')
   Array.from(scrollLinks).forEach(link => link.addEventListener('click', () => {
     const scrollTarget = document.querySelector(`${link.getAttribute('data-scroll')}`)
-    animateScroll(scrollTarget, 1000, 'easeInOutQuint', 10, top)
+    animateScroll(scrollTarget, 1000, 'easeInOutQuint', 300, top)
   }))
 }
 
@@ -61,4 +57,5 @@ document.addEventListener('DOMContentLoaded', () => {
   appearAnimations()
   headerFade()
   homeTyper()
+  console.log('Sorry, no easter 🥚 here ;)') // eslint-disable-line
 })
