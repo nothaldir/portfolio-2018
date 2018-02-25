@@ -28,7 +28,7 @@ module.exports = {
     },
     "server": {
       baseDir: "build",
-      directory: true
+      directory: false
     },
     "proxy": false,
     "port": 3000,
