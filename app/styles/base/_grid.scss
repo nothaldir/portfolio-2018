@@ -14,6 +14,10 @@ body {
   @media (min-width: $mq-m) {
     font-size: $font-size-base;
   }
+
+  @media screen and (max-width: $mq-m-max) {
+    overflow-x: hidden;
+  }
 }
 
 .visuallyhidden {
