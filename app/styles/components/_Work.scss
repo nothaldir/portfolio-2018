@@ -1,15 +1,29 @@
 .Work {
   display: flex;
-  width: 117rem;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+
+  @media screen and (min-width: $mq-ml) {
+    justify-content: space-between;
+    width: 117rem;
+  }
 
   &-item {
-    width: 55rem;;
-    margin-bottom: 7rem;
+    width: 100%;
+    margin: 2rem 0;
     transition: .4s $easeInOutQuint;
     position: relative;
     overflow: hidden;
+
+    @media screen and (min-width: $mq-t) {
+      width: 45rem;
+      margin: 2rem;
+    }
+
+    @media screen and (min-width: $mq-ml) {
+      width: 55rem;
+      margin: 0 0 7rem;
+    }
 
     &:hover {
       box-shadow: 0 1.6rem 2.2rem 0 rgba($shadow-color, .3);
