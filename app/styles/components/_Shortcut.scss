@@ -1,0 +1,31 @@
+.Shortcut {
+  position: fixed;
+  background-image: linear-gradient(to right bottom, #16bffd, #65a2f9, #a07fdd, #c456a8, #cb3066);
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  box-shadow: 0 .3rem 1rem 0 rgba($black, .16);
+  padding-top: 0.9rem;
+  color: $white;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s $easeInQuint;
+
+  &-icon {
+    font-size: 2.75rem;
+  }
+
+  @media screen and (min-width: $mq-t) {
+    display: none;
+  }
+}
+
+.Shortcut--active {
+  visibility: visible;
+  opacity: 1;
+}

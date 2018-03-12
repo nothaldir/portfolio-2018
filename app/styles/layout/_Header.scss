@@ -2,12 +2,16 @@
   position: fixed;
   z-index: 10;
   width: 100%;
+  height: 9rem;
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 9rem;
   box-shadow: 0 .3rem 1rem 0 rgba($black, .16);
   background-color: $white;
+
+  @media screen and (max-width: $mq-t-max) {
+    display: none;
+  }
 
   &-content {
     width: 120rem;

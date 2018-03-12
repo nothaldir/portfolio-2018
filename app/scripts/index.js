@@ -37,6 +37,7 @@ function scrollAnimations() {
 function headerFade() {
   const home = document.querySelector('.Home')
   const header = document.querySelector('.Header')
+  const shortcut = document.querySelector('.Shortcut')
   const headerHeight = header.getBoundingClientRect().height
   const homeHeight = home.getBoundingClientRect().height
 
@@ -44,9 +45,11 @@ function headerFade() {
     if (window.pageYOffset > homeHeight - headerHeight) {
       header.classList.remove('fadeOutUp')
       header.classList.add('visible', 'fadeInDown')
+      shortcut.classList.add('Shortcut--active')
     }
     if (window.pageYOffset < homeHeight - headerHeight) {
       header.classList.add('fadeOutUp')
+      shortcut.classList.remove('Shortcut--active')
     }
   }
 }
