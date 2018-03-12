@@ -7,7 +7,11 @@
   align-items: center;
   color: $white;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+
+  @media screen and (min-width: $mq-ml) {
+    justify-content: flex-end;
+  }
 
   &::before {
     content: "";
@@ -19,6 +23,7 @@
   }
 
   &-content {
+    padding: 2rem;
     z-index: 1;
     width: 100%;
     display: flex;
@@ -28,16 +33,25 @@
 
   &-title {
     font-family: $montserrat;
-    font-size: 7.5rem;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: $mq-s) {
+      height: 10rem;
+    }
+
+    @media screen and (min-width: $mq-m) {
+      font-size: 7.5rem;
+    }
   }
 
   &-social {
     display: flex;
     list-style-type: none;
     justify-content: center;
+    flex-wrap: wrap;
 
     .icon {
       fill: $white;
@@ -46,12 +60,25 @@
   }
 
   &-item {
-    padding: 0 2.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1.5rem;
+
+    @media screen and (min-width: $mq-m) {
+      padding: 0 2.5rem;
+    }
   }
 
   &-next {
-    margin: 21rem auto;
     z-index: 1;
+    margin: 5rem auto 0;
+
+    @media screen and (min-width: $mq-m) and (max-width: $mq-ml-max) {
+      margin: 10rem auto;
+    }
+
+    @media screen and (min-width: $mq-ml) {
+      margin: 21rem auto;
+    }
 
     a {
       display: block;

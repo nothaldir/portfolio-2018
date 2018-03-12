@@ -56,5 +56,5 @@ document.addEventListener('DOMContentLoaded', () => {
   appearAnimations()
   headerFade()
   homeTyper()
-  console.log('Sorry, no easter 🥚 here ;)') // eslint-disable-line
+  console.log('Sorry mate, no easter 🥚 here ;)') // eslint-disable-line
 })
